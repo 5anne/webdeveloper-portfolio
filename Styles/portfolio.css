@@ -64,11 +64,14 @@ nav a{
     font-style: normal;
 }
 
+main{
+    text-align: center;
+    margin: auto;
+}
 .about{
     margin: 70px;
     padding: 130px;
     background-color: aliceblue;
-    text-align: center;
 }
 .about-title{
     font-size: 30px;
@@ -76,4 +79,32 @@ nav a{
 .about-description{
     font-size: 17px;
     color: rgb(61, 57, 57);
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.what-i-did{
+    margin: 70px;
+}
+.what-i-do{
+    margin-top: 130px;
+    font-size: 30px;
+}
+#what{
+    padding: 0px 180px 0px 180px;
+    font-size: 20px;
+}
+.skill-container{
+    display: flex;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    margin-top: 50px;
+
 }
