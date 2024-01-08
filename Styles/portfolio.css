@@ -122,7 +122,15 @@ main section{
 }
 .resume-container{
     display: flex;
-    text-align: left;
+    text-align: center;
     gap: 30px;
-    padding: 130px;
+    padding: 80px;
+}
+.resume-title{
+    text-align: left;
+}
+footer{
+    background-color: blanchedalmond;
+    padding: 130px 200px;
+    display: flex;
 }
