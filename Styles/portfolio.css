@@ -133,4 +133,18 @@ footer{
     background-color: blanchedalmond;
     padding: 130px 200px;
     display: flex;
+    gap: 90px;
+}
+.contact-links{
+    text-align: left;
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: darkgrey;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    width: 100%;
 }
