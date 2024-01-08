@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     
 }
 .text_primary{
@@ -20,6 +20,9 @@ nav{
     font-weight: 700;
     padding: 15px 35px;
 }
+.fa-solid{
+    margin-right: 8px;
+}
 .nav_title{
     color: black;
     font-size: 45px;
@@ -39,9 +42,9 @@ nav a{
 }
 .header{
     background-color: antiquewhite;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
